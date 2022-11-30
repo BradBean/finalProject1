@@ -1,0 +1,123 @@
+body{
+	background-color: #E5E5E5
+}
+
+
+
+#wholeForm{
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	position: relative;
+	background-color: #D3D3D3;
+	font-family: helvetica;
+}
+
+#question{
+	padding: 0px;
+	margin: 0px;
+	width: 780px;
+	height: 75px;
+	background-color: white;
+	padding:10px;
+}
+
+#nameOfPerson{
+  font-size:13px;
+  margin: 0;
+  padding: 0;
+}
+
+#commentOfPerson{
+  font-size:25px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.form2{
+	width: 800px;
+	height: 458px;
+}
+
+.comments{
+	background-color: white;
+	width: 780px;
+	height: 75px;
+	position: relative;
+	margin: 10px;
+}
+
+.form1{
+
+	padding:20px;
+	margin-bottom: 10px;
+	width: 758px;
+	position: absolute;
+	bottom: -10px;
+	background-color: white;
+}
+
+#addComment{
+	display: inline-block;
+	margin-left: 35px;
+}
+
+#name{
+	width: 125px;
+}
+#bodyText{
+	width: 500px;
+}
+
+.formInput{
+	display: inline-block;
+}
+
+.nameVal{
+	display: inline-block;
+	font-size: 12px;
+	position: absolute;
+}
+.commentVal{
+	display: inline-block;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	bottom: 5px;
+}
+
+.imgClass{
+ display: inline-block;
+ height: 65px;
+ width: 65px;
+ margin: 5px;
+}
+
+#edit{
+	position: absolute;
+	right:55px;
+	border: none;
+	text-decoration: underline;
+	color:#30D5C8;
+	background-color:white;
+	margin:5px;
+}
+
+#delete{
+	position: absolute;
+	right:0px;
+	border: none;
+	text-decoration: underline;
+	color:#30D5C8;
+	background-color:white;
+	margin:5px;
+}
+
+#edit:hover{
+	color:#DDA0DD
+}
+
+#delete:hover{
+	color:#DDA0DD
+}
